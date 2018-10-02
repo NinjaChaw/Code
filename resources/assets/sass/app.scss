@@ -1,0 +1,517 @@
+@import "variables";
+
+html, body, #app {
+    height: 100%;
+}
+
+body {
+    &.frontend {
+        #app {
+            // sticky footer
+            display: flex;
+            min-height: 100vh;
+            flex-direction: column;
+        }
+    }
+    &.background-black {
+        color: #fff;
+        background: #000;
+
+        >.pusher {
+            background: #000;
+        }
+        .secondary-info {
+            color: #bcbdbd;
+        }
+        .header {
+            &.block {
+                border: 0;
+            }
+        }
+        .ui.table {
+            tbody {
+                tr {
+                    td {
+                        &.negative, &.positive {
+                            background: #333 !important;
+                        }
+                    }
+                }
+            }
+        }
+        .ui.label {
+            &.basic {
+                background: #000 !important;
+            }
+        }
+        .ui.divider:not(.vertical):not(.horizontal) {
+            border-top: 1px solid #767676;
+            border-bottom: 1px solid #1b1c1d;
+        }
+        .cards {
+            >.card {
+                background: #1b1c1d;
+                box-shadow: none;
+                >.content {
+                    >.header, >.description {
+                        color: #fff;
+                    }
+                    >.meta {
+                        color: #bcbdbd;
+                    }
+                }
+            }
+        }
+        //.ui.feed>.event>.content .date
+        .ui.feed {
+            >.event {
+                >.content {
+                    >.date {
+                        color: #bcbdbd;
+                    }
+                }
+            }
+        }
+        .ui.items {
+            .item {
+                .content {
+                    .header, .description {
+                        color: #fff;
+                    }
+                }
+            }
+        }
+        #asset-search {
+            .item {
+                .content {
+                    .header {
+                        color: #000;
+                    }
+                }
+            }
+        }
+    }
+}
+
+body[class^="backend-"] {
+    .pusher {
+        padding-top: 1.5rem;
+    }
+}
+
+@each $color-name, $color-code in $colors {
+    body.color-#{$color-name} {
+        a {
+            color: $color-code;
+
+            &:hover {
+                color: darken($color-code, 8%)
+            }
+        }
+        #particles {
+            background-color: darken($color-code, 8%);
+        }
+    }
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+.secondary-info {
+    font-size: 0.9em;
+    color: rgba(0, 0, 0, 0.4);
+    z-index: -1;
+}
+
+.tooltip, .popup-trigger {
+    cursor: pointer;
+}
+
+.adsense.container {
+    margin-top: 1rem;
+}
+
+.iziToast {
+    &.cookie-consent {
+        color: rgba(255, 255, 255, 0.5);
+        background: #474747;
+    }
+}
+
+[v-cloak] {
+    display: none;
+}
+
+/*[data-tooltip] {
+    z-index: 1;
+}*/
+
+.table {
+    tbody {
+        td {
+            .ui.grid {
+                margin: 0;
+                >.column {
+                    padding: 0;
+                }
+            }
+        }
+    }
+    tfoot {
+        tr {
+            td {
+                &.right.aligned {
+                    text-align: right;
+                }
+            }
+        }
+    }
+}
+
+.ui.form {
+    &.inline {
+        display: inline;
+    }
+
+    .StripeElement {
+        background-color: white;
+        padding: .67857143em 1em;
+        border-radius: .28571429rem;
+        border: 1px solid rgba(34,36,38,.15);
+        box-shadow: 0 0 0 0 transparent inset;
+        -webkit-transition: color .1s ease,border-color .1s ease;
+        transition: color .1s ease,border-color .1s ease;
+    }
+
+    .StripeElement--focus {
+        /*box-shadow: 1px 3px 3px 0 rgba(0,0,0,.2), 1px 3px 15px 2px rgba(0,0,0,.2);*/
+    }
+
+    .StripeElement--invalid {
+        border-color: #fa755a;
+    }
+
+    .StripeElement--webkit-autofill {
+        background-color: #fefde5 !important;
+    }
+}
+
+#header {
+    #menu-top-bar {
+        padding-bottom: 0;
+        margin-top: 1rem;
+    }
+    .image {
+        margin-right: .25em;
+        display: inline-block;
+        width: auto;
+        height: 1.6em;
+    }
+}
+
+#particles {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+#before-content {
+}
+
+#auth {
+    height: 100%;
+
+    .auth-form-container {
+        height: 100%;
+        margin: 0;
+
+        .column {
+            max-width: 450px;
+
+            .header {
+                img {
+                    display: inline-block;
+                    margin-top: .14285714em;
+                    width: 2.5em;
+                    height: auto;
+                    vertical-align: middle;
+                }
+                .content {
+                    padding-left: .75rem;
+                    vertical-align: middle;
+                }
+            }
+
+            .left.aligned {
+                text-align: left;
+            }
+
+            .message {
+                .header, p {
+                    text-align: left;
+                }
+            }
+        }
+    }
+}
+
+#content {
+
+    >.ui.grid {
+        margin-top: 1rem;
+    }
+
+    .stripe {
+        padding: 6em 0em;
+
+        &.quote {
+            padding: 0em;
+
+            .column {
+                padding-top: 5em;
+                padding-bottom: 5em;
+            }
+        }
+        h3 {
+            font-size: 2em;
+        }
+        p, .item {
+            font-size: 1.33em;
+        }
+        .ui.header + p {
+            margin-top: 0em;
+        }
+    }
+
+    .masthead {
+        background: url("/images/front-background.jpg") no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        min-height: 700px;
+
+        h1 {
+            margin-top: 2.6em;
+            margin-bottom: 0em;
+            font-size: 3.2em;
+            font-weight: normal;
+        }
+        h2 {
+            font-size: 1.7em;
+            font-weight: normal;
+        }
+        a {
+            margin-top: 1.2em;
+        }
+
+    }
+
+    .image-file-container {
+        text-align: center;
+        width: auto;
+        max-width: 150px;
+        img {
+            cursor: pointer;
+            margin-bottom: 10px;
+        }
+        input {
+            display: none;
+        }
+    }
+
+    .feed {
+        .content {
+            margin-top: 0.5rem;
+            .avatar {
+                &.asset {
+                    height: 1.2rem;
+                    width: 1.2rem;
+                    margin: 0;
+                }
+            }
+        }
+    }
+
+    .top-trader {
+        &.card {
+            width: 100%;
+        }
+    }
+
+    #user-stats {
+        margin-top: -1rem;
+    }
+
+    #rankings-table {
+        .tooltip {
+            margin-left: 0.3rem;
+        }
+    }
+
+    #trade-form {
+        .field {
+            margin-left: auto;
+            margin-right: auto;
+            input {
+                text-align: center;
+            }
+        }
+    }
+
+    #competition-leaderboard {
+        .balance-change {
+            font-size: 0.8rem;
+            &.green {
+                color: #21ba45;
+            }
+            &.red {
+                color: #db2828;
+            }
+        }
+    }
+
+    #asset-info-loader {
+        height: 90px;
+    }
+
+    #asset-search {
+        .results {
+            .item {
+                padding: 0.5em 0.5em 0 0.8em !important;
+                cursor: pointer;
+                &:hover {
+                    background: #f9fafb;
+                }
+                .image {
+                    height: 30px;
+                }
+                .content {
+                    text-align: left;
+                }
+            }
+        }
+    }
+
+    #open-trades-table {
+        .trade-symbol {
+            padding-bottom: 0.3em;
+        }
+    }
+}
+
+#after-content {
+    flex: 1; // sticky footer
+}
+
+#footer {
+    margin-top: 2em;
+    padding: 2em 0em;
+
+
+}
+
+// mobiles
+@media only screen and (max-width: 767px) {
+    .mobile-center {
+        text-align: center !important;
+    }
+    .pagination {
+        .item:not(.active):not(:first-child):not(:last-child) {
+            display: none !important;
+        }
+    }
+    .labels {
+        .label {
+            display: block;
+        }
+    }
+}
+// Tablet Devices and below
+@media only screen and (max-width: 991px) {
+    .tablet-and-below-center {
+        text-align: center !important;;
+    }
+    .masthead {
+        .menu {
+            .item {
+                margin-left: auto !important;
+                margin-right: auto !important;
+            }
+        }
+    }
+    .stackable.table {
+        thead {
+            border: none;
+            clip: rect(0 0 0 0);
+            height: 1px;
+            margin: -1px;
+            overflow: hidden;
+            padding: 0;
+            position: absolute;
+            width: 1px;
+        }
+        tbody {
+            tr {
+                td {
+                    display: block;
+                    text-align: right;
+
+                    &:before {
+                        content: attr(data-title);
+                        float: left;
+                        font-weight: bold;
+                    }
+                    .column {
+                        &:first-child {
+                            text-align: left;
+                        }
+                        &:last-child {
+                            text-align: right;
+                        }
+                    }
+                }
+            }
+        }
+        tfoot {
+            tr {
+                td {
+                    text-align: center !important;
+                }
+            }
+        }
+    }
+    #menu-top-bar {
+        h4 {
+            display: inline;
+        }
+    }
+    #trade-form {
+        .fields {
+            margin-bottom: 1em;
+        }
+    }
+}
+// Small Monitor and below
+@media only screen and (max-width: 1200px) {
+    .monitor-and-below-center {
+        text-align: center !important;
+    }
+}
+// Tablet Devices and above
+@media only screen and (min-width: 768px) {
+}
+// Small Monitor and above
+@media only screen and (min-width: 992px) {
+}
+// Large Desktop Devices and above
+@media only screen and (min-width: 1201px) {
+}

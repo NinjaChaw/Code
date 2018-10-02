@@ -1,0 +1,17 @@
+<?php return [
+  'cache' => 'Začasni',
+  'cache_description' => 'Uporaba predloge, nastavitvene datoteke, prevod strune so v predpomnilniku. V nekaterih primerih se lahko zahteva, da ročno počisti zač. pomniln po tem, ko config ali kodo za spremembe.',
+  'clear_cache' => 'Počisti zač. pomniln',
+  'cron' => 'Cron',
+  'cron_description' => 'Določene naloge, je treba opraviti redno. Da bi aplikacija delovala pravilno, morate dodati ta sistem cron delovnih mest:',
+  'cron_description2' => 'Lahko zaženete tudi cron ročno (čeprav običajno ne boste potrebovali).',
+  'run_cron' => 'Teči cron',
+  'db_updates' => 'Baze podatkov prevodov',
+  'db_updates_description' => 'Ko je nadgradnja na novo različico aplikacije, ki je v bistvu vodijo zbirke podatkov prevodov.',
+  'maintenance' => 'Vzdrževanje',
+  'migrate' => 'Vodijo zbirke podatkov prevodov',
+  'success' => 'Delovanje uspešno izvesti.',
+  'update_market_data' => 'Posodobitev podatkov o trgu',
+  'update_assets_market_data' => 'Posodobitev sredstev ponudbe',
+  'update_currencies_market_data' => 'Posodobitev valute ponudbe',
+];

@@ -1,0 +1,17 @@
+<?php return [
+  'cache' => 'Kešatmiņa',
+  'cache_description' => 'Pieteikumu veidnes, config failus, tulkošanas stīgas ir kešatmiņā. Dažos gadījumos var būt nepieciešams manuāli iztīrīt kešatmiņu pēc tam, kad config vai koda izmaiņas.',
+  'clear_cache' => 'Iztīrīt kešatmiņu',
+  'cron' => 'Cron',
+  'cron_description' => 'Atsevišķus uzdevumus, kas būtu jāveic regulāri. Lai piemērošanu, lai darbotos pareizi, jums vajadzētu pievienot šādu sistēmu cron darbu:',
+  'cron_description2' => 'Jūs varat arī palaist cron manuāli (lai gan parasti jums nav nepieciešams),.',
+  'run_cron' => 'Palaist cron',
+  'db_updates' => 'Datu bāzes atjauninājumus',
+  'db_updates_description' => 'Kad jaunināšana uz jauna programmas versija, kas ir būtiski, lai palaistu datu bāzes atjauninājumus.',
+  'maintenance' => 'Tehniskās apkopes',
+  'migrate' => 'Palaist datu bāzes atjauninājumus',
+  'success' => 'Operācija veikta veiksmīgi.',
+  'update_market_data' => 'Atjaunināt tirgus dati',
+  'update_assets_market_data' => 'Atjaunināt aktīvi citāti',
+  'update_currencies_market_data' => 'Atjaunināt valūtas quotes',
+];

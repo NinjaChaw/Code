@@ -1,0 +1,17 @@
+<?php return [
+  'cache' => 'Pamäť',
+  'cache_description' => 'Aplikácia šablóny, konfiguračné súbory, preklad struny sú uložené vo vyrovnávacej pamäti. V niektorých prípadoch môže byť potrebné manuálne vymazať vyrovnávaciu pamäť po vykonaní config alebo zmeny kódu.',
+  'clear_cache' => 'Vymazať vyrovnávaciu pamäť',
+  'cron' => 'Cron',
+  'cron_description' => 'Niektoré úlohy by mali byť vykonávané pravidelne. Aby sa aplikácia spustí správne, mali by ste pridať nasledujúce systémové cronu:',
+  'cron_description2' => 'Môžete tiež spustiť cron manuálne (aj keď bežne nebudete potrebovať).',
+  'run_cron' => 'Spustiť cron',
+  'db_updates' => 'Aktualizácia databázy',
+  'db_updates_description' => 'Pri aktualizácii na novú verziu aplikácie je v podstate na spustenie aktualizácie databázy.',
+  'maintenance' => 'Údržba',
+  'migrate' => 'Spustenie aktualizácie databázy',
+  'success' => 'Operácia úspešne vykonať.',
+  'update_market_data' => 'Aktualizácia údajov o trhu',
+  'update_assets_market_data' => 'Aktualizácia majetku citáty',
+  'update_currencies_market_data' => 'Aktualizácia meny citáty',
+];

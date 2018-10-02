@@ -1,0 +1,9 @@
+{
+    "/js/app.js": "/js/app.js",
+    "/vendor/vendor.js": "/vendor/vendor.js",
+    "/js/auth.js": "/js/auth.js",
+    "/css/app.css": "/css/app.css",
+    "/js/cookie.js": "/js/cookie.js",
+    "/js/manifest.js": "/js/manifest.js",
+    "/vendor/izitoast/iziToast.min.css": "/vendor/izitoast/iziToast.min.css"
+}

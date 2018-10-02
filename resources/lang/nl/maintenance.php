@@ -1,0 +1,17 @@
+<?php return [
+  'cache' => 'Cache',
+  'cache_description' => 'Toepassing van sjablonen, config bestanden, vertaling strings worden opgeslagen. In sommige gevallen kan het nodig zijn om handmatig wissen van de cache na het maken van een config of wijzigingen in de code.',
+  'clear_cache' => 'Cache wissen',
+  'cron' => 'Cron',
+  'cron_description' => 'Bepaalde taken moeten worden uitgevoerd op een regelmatige basis. Om voor de toepassing goed te laten werken moet je het volgende systeem cron job:',
+  'cron_description2' => 'U kunt ook cron handmatig (maar normaal gesproken zal je niet nodig hebben).',
+  'run_cron' => 'Run cron',
+  'db_updates' => 'Updates van de Database',
+  'db_updates_description' => 'Bij het upgraden naar een nieuwe versie van de toepassing is vooral het uitvoeren van updates van de database.',
+  'maintenance' => 'Onderhoud',
+  'migrate' => 'Uitvoeren van updates van de database',
+  'success' => 'Operatie met succes uitgevoerd.',
+  'update_market_data' => 'Update markt gegevens',
+  'update_assets_market_data' => 'Update activa offertes',
+  'update_currencies_market_data' => 'Update valuta quotes',
+];

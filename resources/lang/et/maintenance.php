@@ -1,0 +1,17 @@
+<?php return [
+  'cache' => 'Vahemälu',
+  'cache_description' => 'Taotluse blanketid, config failid, tõlke-stringid on puhverdatud. Mõningatel juhtudel võib olla vajalik käsitsi tühjendage pärast seda alati vahemälu muuta config või koodi muudatusi.',
+  'clear_cache' => 'Kustuta vahemälu',
+  'cron' => 'Cron',
+  'cron_description' => 'Teatud ülesanded tuleks teha regulaarselt. Selleks, et rakendus käivitada õigesti, siis tuleks lisada järgmised süsteem cron töö:',
+  'cron_description2' => 'Te saate käivitada ka cron käsitsi (kuigi tavaliselt ei ole teil vaja seda).',
+  'run_cron' => 'Run cron',
+  'db_updates' => 'Andmebaasi uuendused',
+  'db_updates_description' => 'Kui uuendate rakenduse uuem versioon on sisuliselt käivitada andmebaasi uuendusi.',
+  'maintenance' => 'Hooldus',
+  'migrate' => 'Käivitada andmebaasi uuendused',
+  'success' => 'Toiming edukalt.',
+  'update_market_data' => 'Update turu andmed',
+  'update_assets_market_data' => 'Update vara tsitaadid',
+  'update_currencies_market_data' => 'Update valuutade tsitaadid',
+];

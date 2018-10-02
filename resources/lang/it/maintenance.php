@@ -1,0 +1,17 @@
+<?php return [
+  'cache' => 'Cache',
+  'cache_description' => 'Modelli di applicazione, i file di configurazione, la traduzione delle stringhe vengono memorizzati nella cache. In alcuni casi potrebbe essere necessario cancellare manualmente la cache dopo aver config o modifiche al codice.',
+  'clear_cache' => 'Cancella cache',
+  'cron' => 'Cron',
+  'cron_description' => 'Determinate attività deve essere eseguita su una base regolare. In ordine per l\'applicazione per funzionare correttamente si dovrebbe aggiungere il seguente sistema di job di cron:',
+  'cron_description2' => 'È inoltre possibile eseguire cron manualmente (anche se normalmente non ne avrete bisogno).',
+  'run_cron' => 'Eseguire cron',
+  'db_updates' => 'Gli aggiornamenti del Database',
+  'db_updates_description' => 'Quando si esegue l\'aggiornamento a una nuova versione dell\'applicazione è essenzialmente per eseguire gli aggiornamenti del database.',
+  'maintenance' => 'Manutenzione',
+  'migrate' => 'Eseguire gli aggiornamenti del database',
+  'success' => 'Operazione eseguita con successo.',
+  'update_market_data' => 'Aggiorna dati di mercato',
+  'update_assets_market_data' => 'Aggiornamento attività citazioni',
+  'update_currencies_market_data' => 'Aggiornamento quotazioni valute',
+];

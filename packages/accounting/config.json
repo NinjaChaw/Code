@@ -1,0 +1,18 @@
+{
+    "id": "accounting",
+    "name": "Accounting",
+    "description": "This add-on allows users to deposit and withdraw money to their accounts.",
+    "providers": [
+        "Packages\\Accounting\\Providers\\PackageServiceProvider",
+        "Packages\\Accounting\\Providers\\EventServiceProvider"
+    ],
+    "base_path": "accounting",
+    "source_path": "src",
+    "namespace": "Packages\\Accounting\\",
+    "static": {
+        "PaymentGatewaySeeder": "database/seeds",
+        "PaymentMethodSeeder": "database/seeds",
+        "WithdrawalMethodSeeder": "database/seeds"
+    },
+    "purchase_url": "https://codecanyon.net/user/financialtechnology/portfolio?ref=financialtechnology"
+}

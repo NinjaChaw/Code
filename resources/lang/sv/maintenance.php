@@ -1,0 +1,17 @@
+<?php return [
+  'cache' => 'Cache',
+  'cache_description' => 'Ansökan mallar, config-filer, översättning strängar är cachad. I vissa fall kan det krävas att manuellt rensa cacheminne efter att göra config eller ändringar i koden.',
+  'clear_cache' => 'Rensa cache',
+  'cron' => 'Cron',
+  'cron_description' => 'Vissa uppgifter ska utföras på en regelbunden basis. För att programmet ska fungera korrekt bör du lägga till följande system cron-jobb:',
+  'cron_description2' => 'Du kan också köra cron manuellt (även om du normalt inte behöver det).',
+  'run_cron' => 'Kör cron',
+  'db_updates' => 'Uppdateringar av databasen',
+  'db_updates_description' => 'När du uppgraderar till en ny version av programmet att det är i huvudsak för att köra uppdateringar av databasen.',
+  'maintenance' => 'Underhåll',
+  'migrate' => 'Kör uppdateringar av databasen',
+  'success' => 'Operation utförs på ett framgångsrikt sätt.',
+  'update_market_data' => 'Uppdatera market data',
+  'update_assets_market_data' => 'Uppdatering tillgångar citat',
+  'update_currencies_market_data' => 'Uppdatera valuta citat',
+];

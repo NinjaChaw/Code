@@ -1,0 +1,17 @@
+<?php return [
+  'cache' => 'Cache',
+  'cache_description' => 'Ansøgning skabeloner, config filer, oversættelse strenge er cached. I nogle tilfælde kan det være nødvendigt manuelt at rydde cachen efter at gøre config eller ændringer i koden.',
+  'clear_cache' => 'Ryd cache',
+  'cron' => 'Cron',
+  'cron_description' => 'Visse opgaver skal være udført på en regelmæssig basis. I rækkefølge for det program til at køre ordentligt, bør du tilføje følgende system cron job:',
+  'cron_description2' => 'Du kan også køre cron manuelt (selvom de normalt har du ikke brug for det).',
+  'run_cron' => 'Køre cron',
+  'db_updates' => 'Database opdateringer',
+  'db_updates_description' => 'Når du opgraderer til en ny version af programmet, at det er væsentligt at køre database opdateringer.',
+  'maintenance' => 'Vedligeholdelse',
+  'migrate' => 'Kør database opdateringer',
+  'success' => 'Operation, som udføres med succes.',
+  'update_market_data' => 'Update marked data',
+  'update_assets_market_data' => 'Opdatering aktiver citater',
+  'update_currencies_market_data' => 'Opdatering valutaer citater',
+];

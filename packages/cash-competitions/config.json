@@ -1,0 +1,14 @@
+{
+    "id": "cash-competitions",
+    "name": "Cash competitions",
+    "description": "This add-on allows website administrator to run cash competitions, where participants are required to pay an entrance fee to join. The collected money can then be distributed amongst competition winners.",
+    "providers": [
+        "Packages\\CashCompetitions\\Providers\\PackageServiceProvider",
+        "Packages\\CashCompetitions\\Providers\\EventServiceProvider"
+    ],
+    "base_path": "cash-competitions",
+    "source_path": "src",
+    "namespace": "Packages\\CashCompetitions\\",
+    "static": {},
+    "purchase_url": "https://codecanyon.net/user/financialtechnology/portfolio?ref=financialtechnology"
+}

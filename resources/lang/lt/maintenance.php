@@ -1,0 +1,17 @@
+<?php return [
+  'cache' => 'Cache',
+  'cache_description' => 'Paraiškos formos, config failus, vertimo stygos yra talpyklos. Kai kuriais atvejais gali būti reikalaujama, kad rankiniu būdu išvalyti laikinąją atmintį po making config ar kodekso pakeitimus.',
+  'clear_cache' => 'Išvalyti talpyklą',
+  'cron' => 'Cron',
+  'cron_description' => 'Tam tikras užduotis turėtų būti atliekamas reguliariai. Tam, kad prašymas paleisti tinkamai, jums reikėtų pridėti šią sistemą cron darbas:',
+  'cron_description2' => 'Taip pat galite paleisti cron rankiniu būdu (nors paprastai jums nereikia).',
+  'run_cron' => 'Paleisti cron',
+  'db_updates' => 'Duomenų bazės atnaujinimai',
+  'db_updates_description' => 'Atnaujinimas į naują versiją, ji yra iš esmės paleisti duomenų bazės atnaujinimus.',
+  'maintenance' => 'Priežiūra',
+  'migrate' => 'Paleiskite duomenų bazės atnaujinimai',
+  'success' => 'Operacija atlikta sėkmingai.',
+  'update_market_data' => 'Atnaujinti rinkos duomenis',
+  'update_assets_market_data' => 'Atnaujinti turtas citatos',
+  'update_currencies_market_data' => 'Atnaujinti valiutų kotiruotes',
+];

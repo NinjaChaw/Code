@@ -1,0 +1,17 @@
+<?php return [
+  'cache' => 'Cache',
+  'cache_description' => 'Anwendung templates, config-Dateien, translation strings zwischengespeichert werden. In einigen Fällen kann es erforderlich sein, manuell cache löschen nach config oder code-änderungen.',
+  'clear_cache' => 'Cache löschen',
+  'cron' => 'Cron',
+  'cron_description' => 'Bestimmte Aufgaben sollten in regelmäßigen Abständen durchgeführt. Damit die Anwendung ordnungsgemäß ausgeführt werden, sollten Sie die folgenden system-cron-job:',
+  'cron_description2' => 'Sie können auch den cron manuell (obwohl Sie normalerweise nicht benötigen).',
+  'run_cron' => 'Cron',
+  'db_updates' => 'Datenbank-updates',
+  'db_updates_description' => 'Beim Upgrade auf eine neue version der Anwendung ist es im wesentlichen ausgeführt, Datenbank-updates.',
+  'maintenance' => 'Wartung',
+  'migrate' => 'Ausführen von Datenbank-updates',
+  'success' => 'Operation erfolgreich durchgeführt.',
+  'update_market_data' => 'Update Marktdaten',
+  'update_assets_market_data' => 'Update Vermögenswerte Zitate',
+  'update_currencies_market_data' => 'Update Währungen Zitate',
+];
